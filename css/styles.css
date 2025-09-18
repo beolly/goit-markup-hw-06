@@ -240,6 +240,8 @@ max-width: 768px;
     margin:16px 0 12px 0;
 
   }
+  .adress-link{
+    font-size:12px;} 
   .menu-li{
     justify-content: center;
   }
@@ -249,7 +251,7 @@ max-width: 768px;
   display: flex;
   gap: 40px;
   align-items:center;
-  
+  margin: 0;
 }
 }
 
@@ -372,7 +374,7 @@ padding: 0 auto;
 }
 
 .modal{
-  background-color: rgba(46, 47, 66, 0.4);
+ 
   position: fixed;
   top: 0;
   left: 0;
@@ -385,6 +387,9 @@ padding: 0 auto;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+}
+.modal.is-open{
+ background-color: rgba(46, 47, 66, 0.4);
 }
 .modal-overlay { 
   
@@ -1067,10 +1072,11 @@ color: #2e2f42;
     display: flex;
     flex-wrap: wrap;
    gap: 24px;
+line-height: 1.5;
 
 }
 .project-link:not(:last-child) {
-  /* margin-bottom: 72px; */
+  margin-bottom: 72px;
 }
 
 .project-link{
