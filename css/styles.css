@@ -1051,6 +1051,9 @@ color: #2e2f42;
   margin-bottom: 72px;
  
 }
+.project-link:not(:last-child) {
+  margin-bottom: 48px;
+}
 @media only screen and (min-width: 1158px) {
 
 
@@ -1073,8 +1076,9 @@ color: #2e2f42;
     flex-wrap: wrap;
    gap: 24px;
 line-height: 1.5;
-
 }
+
+
 .project-link:not(:last-child) {
   margin-bottom: 72px;
 }
@@ -1088,9 +1092,7 @@ line-height: 1.5;
     min-width: 1128px;
  
 } */
-.project-link:not(:last-child) {
-  /* margin-bottom: 48px; */
-}
+
 
 .project-link {
   width: calc((100% - 24px*4) / 3);
